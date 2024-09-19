@@ -1,0 +1,19 @@
+/* Mobile first view */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Adjust minmax value as needed */
+    grid-gap: 5px;
+    align-items: ;
+  }
+  
+  @media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .image-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .image-grid img {
+    width: 150px;
+    height: auto;
+  }
