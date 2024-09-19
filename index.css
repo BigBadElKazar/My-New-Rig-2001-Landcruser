@@ -1,0 +1,26 @@
+html{
+    font-size: 22px;
+}
+
+body{
+    background-color: #333;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    background-image: linear-gradient(to top, red 0%, navy 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;}
+
+    /* mobile first view */
+
+
+.main__img--container img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: cover; /* Scale the image to cover the container, cropping if necessary */
+  }
